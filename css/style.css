@@ -1,35 +1,46 @@
-#wrapper {
-  font-family: sans-serif;
-  width: 80%;
-  margin: 0 auto;
+body {
+	background: #37393A;
+}
+
+h2 {
+	color: #FFFAD5;
+	text-align: center;
 }
 
 .graph {
   padding: 0;
   width: 90%;
   float: left;
-  border-bottom: 1px solid #888;
+/*   border-bottom: 1px solid #888; */
 }
 
 .graph li {
   position: relative;
   list-style: none;
-  border-top: 1px solid #888;
-  clear: both;
+	border-bottom: 3px solid #DB9E36;
+	clear: both;
+}
+
+.years, .total {
+	font-size: 1.2rem;
+	color: #FFFAD5;
+
 }
 
 .years {
+	color: #37393A;
+	font-weight: bold;
   display: block;
-  padding: 1em;
   position: relative;
-  color: #222;
-  background: #66EE99;
-  font-weight: bold;
+  background: #DB9E36;
+/*   background: #105B63; */
   float: left;
+ 	margin-bottom: 5px;
+ 	padding: 1rem;
 }
 
 .total {
-  margin-top: 15px;
+	padding-top: 1rem;
   float: right;
 }
 
