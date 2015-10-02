@@ -1,15 +1,19 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js" lang="en">
   <head>
-    <title>CSS Graph</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life expectancy in Lord of the Rings</title>
+    <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-    <div id="wrapper">
-      
-      <h1>Life expectancy in Lord of the Rings</h1>
-      
-      <ul class="graph">
+    
+    <div class="row">
+      <div class="large-8 large-offset-2 medium-8 medium-offset-2 column">
+        <h2>Life expectancy in Lord of the Rings</h2>      
+        <ul class="graph">
         <li>
           <span class="years" style="width: 32%">Hobbits</span>
           <span class="total">96.9</span>
@@ -27,7 +31,13 @@
           <span class="total">237.2</span>
         </li>
       </ul>
-      
+      </div>
     </div>
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
   </body>
 </html>
