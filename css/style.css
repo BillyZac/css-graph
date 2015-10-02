@@ -2,6 +2,11 @@ body {
 	background: #37393A;
 }
 
+#eye {
+	display: block;
+	margin: 20px auto 40px;	
+}
+
 h2 {
 	color: #FFFAD5;
 	text-align: center;
