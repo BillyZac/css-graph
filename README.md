@@ -1,1 +1,1 @@
-A bar graph using only CSS.
+A bar graph using only CSS
